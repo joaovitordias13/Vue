@@ -7,12 +7,12 @@
             <div class="col">
                 <input :value="props.tarefaTemp" @change="props.editaTarefaTemp" required type="text"
                     placeholder="Digite aqui a descrição da tarefa" class="form-control">
-            </div>
+            </div> 
             <div class="col-md-1">
                 <button type="submit" class="btn btn-primary">
                     Cadastrar
                 </button>
-            </div>
+            </div> 
             <div class="col-md-2">
                 <select @change="props.trocarFiltro" class="form-control">
                     <option value="todas">Todas tarefas</option>

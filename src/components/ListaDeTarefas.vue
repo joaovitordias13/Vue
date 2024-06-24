@@ -1,7 +1,7 @@
 <script setup>
     const props = defineProps(['tarefas']);
 </script>
-<template>
+<template> 
     <ul class="list-group mt-4">
         <li class="list-group-item" v-for-key="tarefa in props.tarefas">
             <input @change="evento => tarefa.finalizada = evento.target.checked" :checked="tarefa.finalizada"
@@ -11,4 +11,4 @@
             </label>
         </li>
     </ul>
-</template>
+</template> 

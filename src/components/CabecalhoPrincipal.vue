@@ -8,4 +8,4 @@
         Você possui {{ props.tarefasPendentes }} tarefas pendente
       </p>
     </header>
-</template>
+</template> 
